@@ -18,6 +18,8 @@ body{
     align-items: center;
     background-color: #000;
     padding: 1%;
+    /* position: fixed;
+    width: 100%; */
 }
 
 #nav__link{
@@ -34,3 +36,38 @@ body{
 .navbar__logo{
     width: 20%;
 }
+
+.center{
+    text-align: center;
+    
+
+}
+
+.about{
+    height: 100vh;
+    margin-top: 7%;
+}
+
+.test{
+    margin-bottom: 5%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    gap: 10px;
+    color: #fff;
+}
+
+.bg{
+    background-color: #000;
+}
+
+.team{
+    flex-basis: 25%;
+}
+
+
