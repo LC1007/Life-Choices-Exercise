@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;600;700;900&display=swap');
 
 *,
 *::after,
@@ -12,12 +12,31 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
+/* Classes */
+
+.light__bold{
+    font-weight: 400;
+}
+
+.bold{
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+/* Classes */
+
 #navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #000;
     padding: 1%;
+    position: fixed;
+    width: 100%;
 }
 
 #nav__link{
@@ -34,3 +53,58 @@ body{
 .navbar__logo{
     width: 20%;
 }
+
+.main__section{
+    height: 100vh;
+    background: url(https://lifechoices.co.za/wp-content/uploads/2022/05/lifechoices-aboutus-01.jpg) center no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.main__img{
+    width: 100%;
+}
+
+.life__img{
+    width: 100%;
+}
+
+.section__intro{
+    position: absolute;
+    top: 150%;
+    left: 21%;
+    padding: 20px;
+}
+
+.section__text{
+    font-size: 1.5rem;
+    text-align: center;
+    /* width: 50%; */
+}
+
+.philosophy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.philosophy__text{
+    text-align: center;
+    padding: 10%;
+}
+
+.philosophy__para{
+    font-size: 24px;
+}
+
+#footer{
+    background-color: #252525;
+    height: 40vh;
+}
+
+#flex__footer{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+} 
